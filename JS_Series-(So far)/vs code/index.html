@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.png" />
+    <title>Visual Studio Code-Code Editor</title>
+    <style>
+      .main-nav li {
+        list-style-type: none;
+        padding: 10px;
+        font-size: 20px;
+      }
+      .main-nav a {
+        text-decoration: none;
+        color: aliceblue;
+      }
+      .main-nav a:hover {
+        color: grey;
+      }
+      .firstrow {
+        display: flex;
+        justify-content: space-around;
+      }
+      .main-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .firstrow {
+        display: flex;
+        justify-content: space-between;
+      }
+      .siderow {
+        padding: 30px;
+        display: flex;
+      }
+      .vscode {
+        padding-right: 40px;
+      }
+      .siderow input {
+        padding: 10px;
+        background-color: #0e0e0e;
+        border: 1px solid grey;
+        margin-right: 10px;
+      }
+      .siderow input::placeholder {
+        color: grey;
+        font-size: 17px;
+        opacity: 1;
+      }
+      .siderow button {
+        background-color: #0069b9;
+        width: 100px;
+        font-size: 18px;
+        color: aliceblue;
+      }
+
+      h3 a {
+        color: #4daafc;
+      }
+      .main-body {
+        display: flex;
+        flex-direction: row;
+      }
+    </style>
+  </head>
+  <body style="background-color: #0e0e0e">
+    <nav>
+      <div class="firstrow">
+        <ul class="main-nav">
+          <li><img src="favicon.png" alt="" height="26px" /></li>
+          <span style="color: white"
+            ><li>
+              <a href="/"><strong>Visual Studio Code</strong></a>
+            </li></span
+          >
+          <li style="color: aliceblue"><a href="/">Docs</a></li>
+          <li><a href="/">Updates</a></li>
+          <li><a href="/">Blog</a></li>
+          <li><a href="/">API</a></li>
+          <li><a href="/">Extensions</a></li>
+          <li><a href="/">FAQ</a></li>
+          <li><a href="/">Learn</a></li>
+        </ul>
+        <div class="input-box">
+          <div class="siderow">
+            <input type="text" placeholder="Search Docs" />
+            <button>Download</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <h3 style="text-align: center; color: #9ba3b4">
+      <a href="/">Version 1.92</a> is now available! Read about the new features
+      and fixes from July.
+    </h3>
+    <div class="main-body">
+      <section>
+        <h2
+          style="
+            color: #9ba3b4;
+            margin-right: 6em;
+            margin-left: 40px;
+            margin-top: 30px;
+            border: 1px solid grey;
+            border-radius: 20px;
+            padding: 10px;
+          "
+        >
+          Free. Built on open source. Runs everywhere.
+        </h2>
+        <p
+          style="
+            font-size: 65px;
+            font-weight: bold;
+            color: white;
+            margin-left: 80px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+          "
+        >
+          Code <br />
+          Editing. <br />
+          Redefined.
+        </p>
+        <button
+          style="
+            padding: 7px;
+            margin-left: 90px;
+            width: 210px;
+            font-size: 15px;
+            background-color: #4daafc;
+            color: white;
+            font-weight: bolder;
+          "
+        >
+          Download For Windows
+        </button>
+        <p style="margin-left: 90px; color: #4daafc">
+          <a href="/" style="text-decoration: none; color: #4daafc">Web</a>,
+          <a href="/" style="text-decoration: none; color: #4daafc"
+            >Insiders edition</a
+          >
+          or
+          <a href="/" style="text-decoration: none; color: #4daafc"
+            >other platforms</a
+          >
+        </p>
+      </section>
+      <section>
+        <img src="vscode1.png" alt="" width="600" />
+      </section>
+    </div>
+  </body>
+</html>
