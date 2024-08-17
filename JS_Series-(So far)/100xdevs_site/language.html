@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Select Language</title>
+    <link rel="icon" href="kirat.png" />
+    <style>
+      body {
+        background-color: #030711;
+        color: white;
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      .container {
+        text-align: center;
+      }
+      .title {
+        font-size: 2em;
+        margin-bottom: 20px;
+      }
+      .button-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+      .language-button {
+        padding: 15px 30px;
+        border: 2px solid white;
+        border-radius: 20px;
+        background-image: linear-gradient(to right, #ff7e5f, #feb47b);
+        color: white;
+        font-size: 20px;
+        text-transform: uppercase;
+        transition: background-color 0.3s, color 0.3s, transform 0.3s;
+        cursor: pointer;
+        text-decoration: none;
+      }
+      .language-button:hover {
+        background-image: linear-gradient(to right, #feb47b, #ff7e5f);
+        color: #030711;
+        transform: scale(1.05);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">Select Your Language</div>
+      <div class="button-container">
+        <a href="video.html" class="language-button">English</a>
+        <a href="video.html" class="language-button">Spanish</a>
+      </div>
+    </div>
+  </body>
+</html>
